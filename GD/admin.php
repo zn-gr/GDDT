@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['redirect_url'])) {
 $current_redirect_url = file_exists('redirect_url.txt') ? file_get_contents('redirect_url.txt') : '';
 
 // 高德地图API Key
-$amap_key = '您的高德key';
+$amap_key = 'f18b0912c2b4ecb61b1b36a6190f75e0';
 
 // 坐标转换函数
 function convertCoordinates($longitude, $latitude, $amap_key) {
