@@ -3,7 +3,7 @@ header('Content-Type: application/json');
 
 // 配置部分 - 建议将敏感信息移出代码
 $config = [
-    'amap_api_key' => getenv('AMAP_API_KEY') ?: '您的高德key', // 高德地图API Key
+    'amap_api_key' => getenv('f18b0912c2b4ecb61b1b36a6190f75e0') ?: '您的高德key', // 高德地图API Key
     'log_file' => 'user_locations.txt',
     'redirect_url_file' => 'redirect_url.txt', // 保留以检查重定向URL
     'allowed_methods' => ['POST']
