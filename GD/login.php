@@ -13,8 +13,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = isset($_POST['password']) ? trim($_POST['password']) : '';
 
     // 硬编码的管理员凭据（实际应用中应该使用更安全的方式存储和验证）
-    $admin_username = 'admin'; //管理员登录账号
-    $admin_password = '123456'; // 管理员登录密码
+    $admin_username = 'IDadmin'; //管理员登录账号
+    $admin_password = '401100075'; // 管理员登录密码
 
     // 验证用户名和密码
     if ($username === $admin_username && $password === $admin_password) {
